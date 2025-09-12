@@ -1,4 +1,4 @@
-/* ===== HEADER (barra superior) ===== */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -9,8 +9,8 @@ body {
 /* ----------------- Header ----------------- */
 header#main-bar {
     display: flex;
-    justify-content: space-between; /* título a la izquierda, nav y botones a la derecha */
-    align-items: center;           /* centra verticalmente */
+    justify-content: space-between; 
+    align-items: center;           
     padding: 20px;
     background-color: #f8f9fa;
 }
@@ -55,6 +55,16 @@ form {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   display: flex;
   flex-direction: column;
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+
+
 }
 
 form label {
