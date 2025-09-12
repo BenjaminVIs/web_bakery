@@ -7,10 +7,13 @@ body {
 }
 
 /* ----------------- Header ----------------- */
+
+
 header#main-bar {
     display: grid;
     grid-template-columns: auto 1fr auto; /* título | nav | botón */
     align-items: center;                  /* centra verticalmente */
+    justify-items: center;                /* centra horizontalmente cada elemento */
     padding: 20px;
     background-color: #f8f9fa;
 }
@@ -18,7 +21,7 @@ header#main-bar {
 header#main-bar h1#title {
     margin: 0;
     font: Pacifico, cursive;
-    font-size: 32px;
+    font-size: 20px;
     color: #5D4037;
 }
 
