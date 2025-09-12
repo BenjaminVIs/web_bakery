@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/index.css">
     <title>Pastelería Mil Sabores</title>
 </head>
 <body>
     <header id="main-bar">
-        <h1>Pasteleria Mil Sabores</h1>
+        <h1 id="title">Pasteleria Mil Sabores</h1>
         
         <nav style="text-align: center;">
             <a href="#home">Home</a> | 
@@ -29,7 +30,7 @@
         <main>
             
             <div style="text-align: right;">
-                <a  href="Iniciar-sesion">Iniciar sesion</a> |
+                <a  href="login.html">Iniciar sesion</a> |
                 <a href="registro.html">Registrarse</a>
             </div>
     
@@ -38,8 +39,12 @@
                 <div class="container">
 
                 <h1>Pasteleria Mil Sabores</h1>
-                <p>Pastelería 1000 Sabores, celebrando 50 años como ícono de la repostería chilena y conocida por su récord Guinness en 1995, <br> 
+
+                <div id="description">
+                    <p>Pastelería 1000 Sabores, celebrando 50 años como ícono de la repostería chilena y conocida por su récord Guinness en 1995, <br> 
                     renueva su tienda online para ofrecer una experiencia de compra fácil y moderna.</p>
+                </div>
+        
                 <div class="image-placeholder"><img src="assets/img/icono.png" alt="icono"></div>
 
                 <button script="goToDetailProduct(0)" class="button">Ver Productos</button>
