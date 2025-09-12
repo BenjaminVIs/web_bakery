@@ -10,7 +10,7 @@
     <header id="main-bar">
         <h1 id="title">Pasteleria Mil Sabores</h1>
         
-        <nav style="text-align: center;">
+        <nav id="navigation-bar" style="text-align: center;">
             <a href="#home">Home</a> | 
             <a href="#productos">Productos</a> | 
             <a href="#nosotros">Nosotros</a> | 
@@ -35,22 +35,27 @@
             </div>
     
 
-            <div id="intro">
-                <div class="container">
+        <div id="intro">
 
-                <h1>Pasteleria Mil Sabores</h1>
+            <div class="banner-container">
+                <h1>Pastelería Mil Sabores</h1>
 
-                <div id="description">
-                    <p>Pastelería 1000 Sabores, celebrando 50 años como ícono de la repostería chilena y conocida por su récord Guinness en 1995, <br> 
-                    renueva su tienda online para ofrecer una experiencia de compra fácil y moderna.</p>
+                <div class="desc-imagen">
+                    <div id="description">
+                        <p>
+                            Pastelería 1000 Sabores, celebrando 50 años como ícono de la repostería chilena y conocida por su récord Guinness en 1995, <br>
+                            renueva su tienda online para ofrecer una experiencia de compra fácil y moderna.
+                        </p>
+                    </div>
+                    <div class="image-placeholder">
+                        <img src="assets/img/icono.png" alt="icono">
+                    </div>
                 </div>
-        
-                <div class="image-placeholder"><img src="assets/img/icono.png" alt="icono"></div>
 
-                <button script="goToDetailProduct(0)" class="button">Ver Productos</button>
-
-                </div>
+                <button onclick="goToDetailProduct(0)" class="button">Ver Productos</button>
             </div>
+        </div>
+
 
 <!----------------------------------------------- Aqui estan los productos--------------------------------------------------->
             <div class="container">
