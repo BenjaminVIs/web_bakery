@@ -1,0 +1,117 @@
+/* ----------------- General ----------------- */
+body {
+    font-family: Lato, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF5E1;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.card {
+    display: flex;
+    background-color: #ffffff;
+    width: 80%; /* controla el tamaño de los cuadros */
+    max-width: 900px;
+    margin: 20px auto; /* <-- esto centra la tarjeta horizontalmente */
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* se mueve hacia arriba */
+    box-shadow: 0 8px 12px rgba(0,0,0,0.15); /* sombra más notoria */
+}
+
+.card-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.card-image img {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+/* ----------------- Header ----------------- */
+
+
+header#main-bar {
+    display: grid;
+    grid-template-columns: auto 1fr auto; /* título | nav | botón */
+    align-items: center;                  /* centra verticalmente */
+    justify-items: center;                /* centra horizontalmente cada elemento */
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+header#main-bar h1#title {
+    margin: 0;
+    font: Pacifico, cursive;
+    font-size: 20px;
+    color: #5D4037;
+}
+
+header#main-bar nav {
+    justify-self: center; /* centra la nav horizontalmente */
+}
+
+header#main-bar nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #f8f9fa;
+}
+
+header#main-bar .button {
+    justify-self: end;    /* coloca el botón a la derecha */
+}
+
+/* ----------------- Botones ----------------- */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFC0CB;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.button:hover {
+    transform: scale(1.05);
+    background-color: #8B4513;
+}
+
+/* ----------------- Responsividad ----------------- */
+@media (max-width: 768px) {
+    .desc-imagen {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #description {
+        text-align: center;
+    }
+
+    header#main-bar {
+        grid-template-columns: 1fr;
+        text-align: center;
+        row-gap: 10px;
+    }
+
+    header#main-bar .button {
+        justify-self: center;
+    }
+}
