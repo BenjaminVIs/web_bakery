@@ -12,11 +12,11 @@
         
         <div id="navigation-bar">
             <nav>
-            <a href="index.html">Home</a> | 
-            <a href="productos.html">Productos</a> | 
-            <a href="nosotros.html">Nosotros</a> | 
-            <a href="blog.html">Blog</a> | 
-            <a href="contacto.html">Contacto</a>          
+            <a class="button" href="index.html">Home</a> | 
+            <a class="button" href="productos.html">Productos</a> | 
+            <a class="button" href="nosotros.html">Nosotros</a> | 
+            <a class="button" href="blog.html">Blog</a> | 
+            <a class="button" href="contacto.html">Contacto</a>          
             </nav>
         </div>
 
@@ -29,10 +29,10 @@
     </header>
     
         <main>
-            
+            <br>
             <div style="text-align: right;">
-                <a  href="iniciar-sesion.html">Iniciar sesion</a> |
-                <a href="registro.html">Registrarse</a>
+                <a href="iniciar-sesion.html" class="button">Iniciar sesion</a> |
+                <a href="registro.html" class="button">Registrarse</a>
             </div>
     
 
@@ -45,7 +45,10 @@
                     <div id="description">
                         <p>
                             Pastelería 1000 Sabores, celebrando 50 años como ícono de la repostería chilena y conocida por nuestro récord Guinness en 1995,
-                            renovamos nuestra tienda online para ofrecer una experiencia de compra fácil y moderna.
+                            renovamos nuestra tienda online para ofrecer una experiencia de compra fácil y moderna. 
+                            Ahora puedes explorar nuestro catálogo de tortas y pasteles exclusivos, conocer nuestras promociones especiales y realizar tus 
+                            pedidos desde cualquier lugar, con la comodidad de recibirlos en tu hogar. Nuestro compromiso es seguir entregando calidad, sabor y 
+                            tradición en cada producto, adaptándonos a tus necesidades y preferencias. ¡Descubre todo lo que Pastelería Mil Sabores tiene para ti!
                         </p>
                     </div>
                     <div class="image-placeholder">
@@ -60,66 +63,85 @@
 
 <!----------------------------------------------- Aqui estan los productos--------------------------------------------------->
             <div class="container">
-                <div class="card">
-                    <div class="image-placeholder"><img src="assets/img/p1.png" width="250" height="250" alt="Pastel 1"> </div>
-                      <a href="#producto">Torta Mil Hojas</a> 
-                      <div>Attributes</div>
-                      <div>$00.00</div>
+        <div class="card">
+            <div class="image-placeholder"><img src="assets/img/p1.png" width="250" height="250" alt="Pastel 1"> </div>
+              <a href="#producto">Torta Mil Hojas</a> 
+              <div class="price">$15.990</div>
+              <button class="button add-to-cart" 
+                      data-name="Torta Mil Hojas" 
+                      data-price="15990" 
+                      data-img="assets/img/p1.png">Añadir</button>
+        </div>
 
-                </div>
+        <div class="card">
+            <div class="image-placeholder"> <img src="assets/img/p2.png" width="250" height="250" alt="Pastel 2"></div>
+              <a href="#producto">Torta Dos Mil Hojas</a> 
+              <div class="price">$18.990</div>
+              <button class="button add-to-cart" 
+                      data-name="Torta Dos Mil Hojas" 
+                      data-price="18990" 
+                      data-img="assets/img/p2.png">Añadir</button>
+        </div>
 
-                <div class="card">
-                    <div class="image-placeholder"> <img src="assets/img/p2.png" width="250" height="250" alt="Pastel 2"></div>
-                      <a href="#producto">Torta Dos Mil Hojas</a> 
-                      <div>Attributes</div>
-                      <div>$00.00</div>
+        <div class="card">
+            <div class="image-placeholder"><img src="assets/img/p3.png" width="250" height="250" alt="Pastel 3"> </div>
+              <a href="#producto">Torta de Panqueques</a> 
+              <div class="price">$14.990</div>
+              <button class="button add-to-cart" 
+                      data-name="Torta de Panqueques" 
+                      data-price="14990" 
+                      data-img="assets/img/p3.png">Añadir</button>
+        </div>
 
-                </div>
+        <div class="card">
+            <div class="image-placeholder"> <img src="assets/img/p4.png" width="250" height="250" alt="Pastel 4"></div>
+              <a href="#producto">Torta Chocolate Suprema</a> 
+              <div class="price">$16.990</div>
+              <button class="button add-to-cart" 
+                      data-name="Torta Chocolate Suprema" 
+                      data-price="16990" 
+                      data-img="assets/img/p4.png">Añadir</button>
+        </div>
 
-                <div class="card">
-                    <div class="image-placeholder"><img src="assets/img/p3.png" width="250" height="250" alt="Pastel 3"> </div>
-                      <a href="#producto">Torta de Panqueques</a> 
-                      <div>Attributes</div>
-                      <div>$00.00</div>
+        <div class="card">
+            <div class="image-placeholder"> <img src="assets/img/p5.png" width="250" height="250" alt="Pastel 5"></div>
+              <a href="#producto">Torta Selva Negra</a> 
+              <div class="price">$17.990</div>
+              <button class="button add-to-cart" 
+                      data-name="Torta Selva Negra" 
+                      data-price="17990" 
+                      data-img="assets/img/p5.png">Añadir</button>
+        </div>
 
-                </div>
+        <div class="card">
+            <div class="image-placeholder"> <img src="assets/img/p6.png" width="250" height="250" alt="Pastel 6"></div>
+              <a href="#producto">Torta Merengue Lucuma</a> 
+              <div class="price">$19.990</div>
+              <button class="button add-to-cart" 
+                      data-name="Torta Merengue Lucuma" 
+                      data-price="19990" 
+                      data-img="assets/img/p6.png">Añadir</button>
+        </div>
 
-                <div class="card">
-                    <div class="image-placeholder"> <img src="assets/img/p4.png" width="250" height="250" alt="Pastel 4"></div>
-                      <a href="#producto">Torta Chocolate Suprema</a> 
-                      <div>Attributes</div>
-                      <div>$00.00</div>
+        <div class="card">
+            <div class="image-placeholder"> <img src="assets/img/p7.png" width="250" height="250" alt="Pastel 7"></div>
+              <a href="#producto">Torta Atardecer Purpura</a> 
+              <div class="price">$16.490</div>
+              <button class="button add-to-cart" 
+                      data-name="Torta Atardecer Purpura" 
+                      data-price="16490" 
+                      data-img="assets/img/p7.png">Añadir</button>
+        </div>
 
-                </div>
-
-                <div class="card">
-                    <div class="image-placeholder"> <img src="assets/img/p5.png" width="250" height="250" alt="Pastel 5"></div>
-                      <a href="#producto">Torta Selva Negra</a> 
-                      <div>Attributes</div>
-                      <div>$00.00</div>
-
-                </div>
-
-                <div class="card">
-                    <div class="image-placeholder"> <img src="assets/img/p6.png" width="250" height="250" alt="Pastel 6"></div>
-                      <a href="#producto">Torta Merengue Lucuma</a> 
-                      <div>Attributes</div>
-                      <div>$00.00</div>
-                </div>
-
-                <div class="card">
-                    <div class="image-placeholder"> <img src="assets/img/p7.png" width="250" height="250" alt="Pastel 7"></div>
-                      <a href="#producto">Torta Atardecer Purpura</a> 
-                      <div>Attributes</div>
-                      <div>$00.00</div>
-                </div>
-
-                <div class="card">
-                    <div class="image-placeholder"> <img src="assets/img/p8.png" width="250" height="250" alt="Pastel 8"></div>
-                      <a href="#producto">Torta Sueño de Verano</a> 
-                      <div>Attributes</div>
-                      <div>$00.00</div>
-                </div>
+        <div class="card">
+            <div class="image-placeholder"> <img src="assets/img/p8.png" width="250" height="250" alt="Pastel 8"></div>
+              <a href="#producto">Torta Sueño de Verano</a> 
+              <div class="price">$16.990</div>
+              <button class="button add-to-cart" 
+                      data-name="Torta Sueño de Verano" 
+                      data-price="16990" 
+                      data-img="assets/img/p8.png">Añadir</button>
+        </div>
 
 
   
@@ -131,15 +153,6 @@
 <!-------------------------------------------------- Aqui esta el footer --------------------------------------------------->
         <footer>
             <h5>Pasteleria mil Sabores</h5>
-            <div> 
-                <nav>
-                    
-                    <a href="Categoria x">Categoria X</a> |
-                    <a href="Categoria Y">Categoria Y</a> |
-                    <a href="Categoria Z">Categoria Z</a>
-                </nav>
-            </div>
-
             <div style="text-align: right;">
                 <input type="email" id="email" name="email" placeholder="Ingresa tu correo">
                 <button class="button" >Suscribirse</button>

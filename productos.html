@@ -10,14 +10,15 @@
     <header id="main-bar">
         <h1 id="title">Pasteleria Mil Sabores</h1>
         
-        <nav id="navigation-bar" style="text-align: center;">
-            <a href="index.html">Home</a> | 
-            <a href="productos.html">Productos</a> | 
-            <a href="nosotros.html">Nosotros</a> | 
-            <a href="blog.html">Blog</a> | 
-            <a href="contacto.html">Contacto</a>
-            
-        </nav>
+        <div id="navigation-bar">
+            <nav>
+            <a class="button" href="index.html">Home</a> | 
+            <a class="button" href="productos.html">Productos</a> | 
+            <a class="button" href="nosotros.html">Nosotros</a> | 
+            <a class="button" href="blog.html">Blog</a> | 
+            <a class="button" href="contacto.html">Contacto</a>          
+            </nav>
+        </div>
 
         <div>
             <button class="button" id="cart-button" style="float: right;">
@@ -27,131 +28,171 @@
     </header>
 
     <main>
-        <div class="container">
-                <div class="card">
-                    <div class="image-placeholder"><img src="assets/img/p1.png" width="250" height="250" alt="Pastel 1"> </div>
-                      <a href="#producto">Torta Mil Hojas</a> 
-                      <div>Attributes</div>
-                      <div>$00.00</div>
 
-                </div>
+      <h1 id="title-productos">Todos los Productos</h1>
+    <div class="container">
+        <div class="card">
+            <div class="image-placeholder"><img src="assets/img/p1.png" width="250" height="250" alt="Pastel 1"> </div>
+              <a href="#producto">Torta Mil Hojas</a> 
+              <div class="price">$15.990</div>
+              <button class="button add-to-cart" 
+                      data-name="Torta Mil Hojas" 
+                      data-price="15990" 
+                      data-img="assets/img/p1.png">Añadir</button>
+        </div>
 
-                <div class="card">
-                    <div class="image-placeholder"> <img src="assets/img/p2.png" width="250" height="250" alt="Pastel 2"></div>
-                      <a href="#producto">Torta Dos Mil Hojas</a> 
-                      <div>Attributes</div>
-                      <div>$00.00</div>
+        <div class="card">
+            <div class="image-placeholder"> <img src="assets/img/p2.png" width="250" height="250" alt="Pastel 2"></div>
+              <a href="#producto">Torta Dos Mil Hojas</a> 
+              <div class="price">$18.990</div>
+              <button class="button add-to-cart" 
+                      data-name="Torta Dos Mil Hojas" 
+                      data-price="18990" 
+                      data-img="assets/img/p2.png">Añadir</button>
+        </div>
 
-                </div>
+        <div class="card">
+            <div class="image-placeholder"><img src="assets/img/p3.png" width="250" height="250" alt="Pastel 3"> </div>
+              <a href="#producto">Torta de Panqueques</a> 
+              <div class="price">$14.990</div>
+              <button class="button add-to-cart" 
+                      data-name="Torta de Panqueques" 
+                      data-price="14990" 
+                      data-img="assets/img/p3.png">Añadir</button>
+        </div>
 
-                <div class="card">
-                    <div class="image-placeholder"><img src="assets/img/p3.png" width="250" height="250" alt="Pastel 3"> </div>
-                      <a href="#producto">Torta de Panqueques</a> 
-                      <div>Attributes</div>
-                      <div>$00.00</div>
+        <div class="card">
+            <div class="image-placeholder"> <img src="assets/img/p4.png" width="250" height="250" alt="Pastel 4"></div>
+              <a href="#producto">Torta Chocolate Suprema</a> 
+              <div class="price">$16.990</div>
+              <button class="button add-to-cart" 
+                      data-name="Torta Chocolate Suprema" 
+                      data-price="16990" 
+                      data-img="assets/img/p4.png">Añadir</button>
+        </div>
 
-                </div>
+        <div class="card">
+            <div class="image-placeholder"> <img src="assets/img/p5.png" width="250" height="250" alt="Pastel 5"></div>
+              <a href="#producto">Torta Selva Negra</a> 
+              <div class="price">$17.990</div>
+              <button class="button add-to-cart" 
+                      data-name="Torta Selva Negra" 
+                      data-price="17990" 
+                      data-img="assets/img/p5.png">Añadir</button>
+        </div>
 
-                <div class="card">
-                    <div class="image-placeholder"> <img src="assets/img/p4.png" width="250" height="250" alt="Pastel 4"></div>
-                      <a href="#producto">Torta Chocolate Suprema</a> 
-                      <div>Attributes</div>
-                      <div>$00.00</div>
+        <div class="card">
+            <div class="image-placeholder"> <img src="assets/img/p6.png" width="250" height="250" alt="Pastel 6"></div>
+              <a href="#producto">Torta Merengue Lucuma</a> 
+              <div class="price">$19.990</div>
+              <button class="button add-to-cart" 
+                      data-name="Torta Merengue Lucuma" 
+                      data-price="19990" 
+                      data-img="assets/img/p6.png">Añadir</button>
+        </div>
 
-                </div>
+        <div class="card">
+            <div class="image-placeholder"> <img src="assets/img/p7.png" width="250" height="250" alt="Pastel 7"></div>
+              <a href="#producto">Torta Atardecer Purpura</a> 
+              <div class="price">$16.490</div>
+              <button class="button add-to-cart" 
+                      data-name="Torta Atardecer Purpura" 
+                      data-price="16490" 
+                      data-img="assets/img/p7.png">Añadir</button>
+        </div>
 
-                <div class="card">
-                    <div class="image-placeholder"> <img src="assets/img/p5.png" width="250" height="250" alt="Pastel 5"></div>
-                      <a href="#producto">Torta Selva Negra</a> 
-                      <div>Attributes</div>
-                      <div>$00.00</div>
+        <div class="card">
+            <div class="image-placeholder"> <img src="assets/img/p8.png" width="250" height="250" alt="Pastel 8"></div>
+              <a href="#producto">Torta Sueño de Verano</a> 
+              <div class="price">$16.990</div>
+              <button class="button add-to-cart" 
+                      data-name="Torta Sueño de Verano" 
+                      data-price="16990" 
+                      data-img="assets/img/p8.png">Añadir</button>
+        </div>
 
-                </div>
+        <div class="card">
+            <div class="image-placeholder"> <img src="assets/img/p9.png" width="250" height="250" alt="Pastel 9"></div>
+              <a href="#producto">Galletas de Mantequilla</a> 
+              <div class="price">$5.990</div>
+              <button class="button add-to-cart" 
+                      data-name="Galletas de Mantequilla" 
+                      data-price="5990" 
+                      data-img="assets/img/p9.png">Añadir</button>
+        </div>
 
-                <div class="card">
-                    <div class="image-placeholder"> <img src="assets/img/p6.png" width="250" height="250" alt="Pastel 6"></div>
-                      <a href="#producto">Torta Merengue Lucuma</a> 
-                      <div>Attributes</div>
-                      <div>$00.00</div>
-                </div>
+        <div class="card">
+            <div class="image-placeholder"> <img src="assets/img/p10.png" width="250" height="250" alt="Pastel 10"></div>
+              <a href="#producto">Pastel de Bodas</a> 
+              <div class="price">$49.990</div>
+              <button class="button add-to-cart" 
+                      data-name="Pastel de Bodas" 
+                      data-price="49990" 
+                      data-img="assets/img/p10.png">Añadir</button>
+        </div>
 
-                <div class="card">
-                    <div class="image-placeholder"> <img src="assets/img/p7.png" width="250" height="250" alt="Pastel 7"></div>
-                      <a href="#producto">Torta Atardecer Purpura</a> 
-                      <div>Attributes</div>
-                      <div>$00.00</div>
-                </div>
+        <div class="card">
+            <div class="image-placeholder"> <img src="assets/img/p11.png" width="250" height="250" alt="Pastel 11"></div>
+              <a href="#producto">Torta de Manjar Nuez</a> 
+              <div class="price">$18.490</div>
+              <button class="button add-to-cart" 
+                      data-name="Torta de Manjar Nuez" 
+                      data-price="18490" 
+                      data-img="assets/img/p11.png">Añadir</button>
+        </div>
 
-                <div class="card">
-                    <div class="image-placeholder"> <img src="assets/img/p8.png" width="250" height="250" alt="Pastel 8"></div>
-                      <a href="#producto">Torta Sueño de Verano</a> 
-                      <div>Attributes</div>
-                      <div>$00.00</div>
-                </div>
+        <div class="card">
+            <div class="image-placeholder"> <img src="assets/img/p12.png" width="250" height="250" alt="Pastel 12"></div>
+              <a href="#producto">Torta Cuadrada de Chocolate y Avenas</a> 
+              <div class="price">$15.490</div>
+              <button class="button add-to-cart" 
+                      data-name="Torta Cuadrada de Chocolate y Avenas" 
+                      data-price="15490" 
+                      data-img="assets/img/p12.png">Añadir</button>
+        </div>
 
-                <!--
-                Aqui los productos a editar, tienen las imagenes repetidas
-                -->
+        <div class="card">
+            <div class="image-placeholder"> <img src="assets/img/p13.png" width="250" height="250" alt="Pastel 13"></div>
+              <a href="#producto">Mousse de Chocolate</a> 
+              <div class="price">$12.990</div>
+              <button class="button add-to-cart" 
+                      data-name="Mousse de Chocolate" 
+                      data-price="12990" 
+                      data-img="assets/img/p13.png">Añadir</button>
+        </div>
 
-                <div class="card">
-                    <div class="image-placeholder"> <img src="assets/img/p9.png" width="250" height="250" alt="Pastel 8"></div>
-                      <a href="#producto">Galletas de Mantequilla</a> 
-                      <div>Attributes</div>
-                      <div>$00.00</div>
-                </div>
+        <div class="card">
+            <div class="image-placeholder"> <img src="assets/img/p14.png" width="250" height="250" alt="Pastel 14"></div>
+              <a href="#producto">Galletas Veganas de Avena</a> 
+              <div class="price">$6.490</div>
+              <button class="button add-to-cart" 
+                      data-name="Galletas Veganas de Avena" 
+                      data-price="6490" 
+                      data-img="assets/img/p14.png">Añadir</button>
+        </div>
 
-                <div class="card">
-                    <div class="image-placeholder"> <img src="assets/img/p10.png" width="250" height="250" alt="Pastel 8"></div>
-                      <a href="#producto">Pastel de Bodas</a> 
-                      <div>Attributes</div>
-                      <div>$00.00</div>
-                </div>
+        <div class="card">
+            <div class="image-placeholder"> <img src="assets/img/p15.png" width="250" height="250" alt="Pastel 15"></div>
+              <a href="#producto">Pan sin gluten</a> 
+              <div class="price">$4.990</div>
+              <button class="button add-to-cart" 
+                      data-name="Pan sin gluten" 
+                      data-price="4990" 
+                      data-img="assets/img/p15.png">Añadir</button>
+        </div>
 
-                <div class="card">
-                    <div class="image-placeholder"> <img src="assets/img/p11.png" width="250" height="250" alt="Pastel 8"></div>
-                      <a href="#producto">Torta de Manjar Nuez</a> 
-                      <div>Attributes</div>
-                      <div>$00.00</div>
-                </div>
-
-                <div class="card">
-                    <div class="image-placeholder"> <img src="assets/img/p8.png" width="250" height="250" alt="Pastel 8"></div>
-                      <a href="#producto">Torta Sueño de Verano</a> 
-                      <div>Attributes</div>
-                      <div>$00.00</div>
-                </div>
-
-                <div class="card">
-                    <div class="image-placeholder"> <img src="assets/img/p8.png" width="250" height="250" alt="Pastel 8"></div>
-                      <a href="#producto">Torta Sueño de Verano</a> 
-                      <div>Attributes</div>
-                      <div>$00.00</div>
-                </div>
-
-                <div class="card">
-                    <div class="image-placeholder"> <img src="assets/img/p8.png" width="250" height="250" alt="Pastel 8"></div>
-                      <a href="#producto">Torta Sueño de Verano</a> 
-                      <div>Attributes</div>
-                      <div>$00.00</div>
-                </div>
-
-                <div class="card">
-                    <div class="image-placeholder"> <img src="assets/img/p8.png" width="250" height="250" alt="Pastel 8"></div>
-                      <a href="#producto">Torta Sueño de Verano</a> 
-                      <div>Attributes</div>
-                      <div>$00.00</div>
-                </div>
-
-                <div class="card">
-                    <div class="image-placeholder"> <img src="assets/img/p8.png" width="250" height="250" alt="Pastel 8"></div>
-                      <a href="#producto">Torta Sueño de Verano</a> 
-                      <div>Attributes</div>
-                      <div>$00.00</div>
-                </div>
+        <div class="card">
+            <div class="image-placeholder"> <img src="assets/img/p16.png" width="250" height="250" alt="Pastel 16"></div>
+              <a href="#producto">Empanada de Manzana</a> 
+              <div class="price">$3.990</div>
+              <button class="button add-to-cart" 
+                      data-name="Empanada de Manzana" 
+                      data-price="3990" 
+                      data-img="assets/img/p16.png">Añadir</button>
+        </div>
+    </div>
+</main>
 
 
-  
-            </div>
-    </main>
 </body>
 </html>

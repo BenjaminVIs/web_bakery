@@ -32,7 +32,7 @@ header#main-bar nav {
 header#main-bar nav a {
     margin: 0 10px;
     text-decoration: none;
-    color: #333;
+    color: #f8f9fa;
 }
 
 header#main-bar .button {
@@ -79,9 +79,10 @@ header#main-bar .button {
 
 #description {
     font-size: larger;
-    color: #ffffff;
+    color: #5D4037;
     flex: 1;                     /* ocupa espacio restante */
     text-align: left;
+    font-weight: bold;
 }
 
 .desc-imagen .image-placeholder img {
@@ -143,7 +144,7 @@ header#main-bar .button {
 /* ----------------- Footer ----------------- */
 footer {
     background-color: #f8f9fa;
-    padding: 20px;
+    padding: 5px;
     font-size: 14px;
     color: #666;
 }
