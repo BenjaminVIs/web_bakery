@@ -1,0 +1,107 @@
+/* ----------------- General ----------------- */
+body {
+    font-family: Lato, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF5E1;
+}
+
+/* ----------------- Header ----------------- */
+
+
+header#main-bar {
+    display: grid;
+    grid-template-columns: auto 1fr auto; /* título | nav | botón */
+    align-items: center;                  /* centra verticalmente */
+    justify-items: center;                /* centra horizontalmente cada elemento */
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+header#main-bar h1#title {
+    margin: 0;
+    font: Pacifico, cursive;
+    font-size: 20px;
+    color: #5D4037;
+}
+
+header#main-bar nav {
+    justify-self: center; /* centra la nav horizontalmente */
+}
+
+header#main-bar nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #f8f9fa;
+}
+
+header#main-bar .button {
+    justify-self: end;    /* coloca el botón a la derecha */
+}
+
+/* ----------------- Botones ----------------- */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFC0CB;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.button:hover {
+    transform: scale(1.05);
+    background-color: #8B4513;
+}
+
+#about-us {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #FFF5E1;
+}
+
+#company-description {
+    font-size: larger;
+    color: #5D4037;
+    flex: 1;                     /* ocupa espacio restante */
+    text-align: left;
+    font-weight: bold;
+}
+
+/* ----------------- Banner ----------------- */
+.banner-container {
+    color: #5D4037;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+#description {
+    font-size: larger;
+    color: #5D4037;
+    flex: 1;                     /* ocupa espacio restante */
+    text-align: left;
+    font-weight: bold;
+}
+
+#empresa, #historia, #web, #vision, #desarrolladores {
+    margin-bottom: 20px;
+    background-color: #dbccaf;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+#image-container {
+    margin-top: 20px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+
