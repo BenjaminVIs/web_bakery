@@ -36,6 +36,8 @@ nav a {
     cursor: pointer;
     font-weight: bold;
     transition: transform 0.3s, background-color 0.3s;
+    text-decoration: none; /* para enlaces */
+    
 }
 
 .button:hover {

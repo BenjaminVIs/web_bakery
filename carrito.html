@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="assets/carrito.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="main-bar">
+        <h1 id="title">Pastelería Mil Sabores</h1>
+        <div id="navigation-bar">
+            <nav>
+                <a class="button" href="index.html">Home</a> | 
+                <a class="button" href="productos.html">Productos</a> | 
+                <a class="button" href="nosotros.html">Nosotros</a> | 
+                <a class="button" href="blog.html">Blog</a> | 
+                <a class="button" href="contacto.html">Contacto</a>
+            </nav>
+        </div>
+        <div>
+            <button class="button" id="cart-button" style="float: right;">🛒 Carrito</button>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <h2>Mi carrito de compras</h2>
+
+        <div class="cart-container">
+            <!-- Lista de productos -->
+            <div id="cart-items" class="cart-items">
+                <!-- Los productos se agregarán aquí dinámicamente -->
+            </div>
+
+            <!-- Panel lateral del total -->
+            <aside class="cart-summary">
+                <div class="summary-total">
+                    <span><strong>TOTAL:</strong></span>
+                    <span>$<span id="total-amount">0</span></span>
+                </div>
+
+                <div class="coupon">
+                    <input type="text" id="coupon-code" placeholder="Ingrese el cupón de descuento">
+                    <button id="apply-coupon">APLICAR</button>
+                </div>
+
+                <button id="checkout-button" class="button pay-button">PAGAR</button>
+            </aside>
+        </div>
+
+        <!-- Plantilla oculta para productos -->
+        <template id="product-template">
+            <div class="cart-item">
+                <img src="" alt="Nombre del producto" class="product-image" width="500" height="500">
+                <div class="product-info">
+                    <h3 class="product-name">Producto</h3>
+                    <p class="product-price">$0</p>
+
+                    <div class="quantity-control">
+                        <button class="decrease">−</button>
+                        <input type="number" class="product-quantity" value="1" min="1">
+                        <button class="increase">+</button>
+                    </div>
+                </div>
+            </div>
+        </template>
+</main>
+
+    <!-- JS del carrito -->
+    <script src="assets/javaScript/carrito.js"></script>
+</body>
+</html>
