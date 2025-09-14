@@ -1,0 +1,175 @@
+main {
+    flex: 1; /* ocupa el espacio restante junto al sidebar */
+    display: flex; /* activa flex */
+    justify-content: center; /* centra horizontal */
+    align-items: center; /* centra vertical */
+    min-height: 100vh; /* altura completa de la ventana */
+    padding: 20px;
+    background-color: #f0f0f0; /* opcional */
+}
+
+
+
+.form-container {
+    display: flex;
+    flex-direction: column; /* apila verticalmente */
+    align-items: center;    /* centra horizontalmente los hijos */
+    gap: 20px;              /* espacio entre el título y el formulario */
+}
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* ancho máximo del formulario */
+    box-sizing: border-box; /* incluye padding y border en el ancho total */
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#region {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white; /* Fondo blanco para el select */
+    color: #333; /* Color del texto */
+}
+
+#comuna {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white; /* Fondo blanco para el select */
+    color: #333; /* Color del texto */
+}
+
+/* Estilos específicos para mensajes de error */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+/* Estilos específicos para mensajes de éxito */
+.success-message {
+    color: green;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}   
+
+/* Estilos para el campo de confirmación de correo */
+input#correo2 {
+    border-color: #ccc; /* borde por defecto */
+}
+
+input#correo2.valid {
+    border-color: green; /* borde verde si es válido */
+}
+
+input#correo2.invalid {
+    border-color: red; /* borde rojo si no es válido */
+}
+
+
+/* Estilos para el campo de confirmación de contraseña */
+input#password2 {
+    border-color: #ccc; /* borde por defecto */
+}
+
+input#password2.valid {
+    border-color: green; /* borde verde si es válido */
+}
+
+input#password2.invalid {
+    border-color: red; /* borde rojo si no es válido */
+}
+
+/* Estilos responsivos */
+
+@media (max-width: 500px) {
+    form {
+        padding: 15px;
+    }
+
+    input, button {
+        font-size: 14px;
+        padding: 8px;
+    }
+}    
+
+#new-user {
+    font-family: Lato, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0; /* ya no necesitas margin auto */
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(105, 2, 2, 0.1);
+    max-width: 600px; /* ancho máximo para evitar que sea demasiado ancho en pantallas grandes */
+    width: 90%; /* ancho relativo para pantallas pequeñas */
+    
+
+}
+#new-user span {
+    color: #007bff;
+}
+
+/* Estilos para el contenedor del formulario */
+.form-container {
+    width: 100%;
+    max-width: 500px; /* ancho máximo del formulario */
+    margin: 0 auto; /* centra el formulario horizontalmente */
+}
+
+/* Estilos para el título del formulario */
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los campos del formulario */
+
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box; /* asegura que el padding no afecte el ancho total */
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="assets/user.css">
+    <link rel="stylesheet" href="assets/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+      <div class="logo">
+        <span>Pastelería Mil Sabores</span>
+      </div>
+
+      <nav class="menu">
+            <a href="home.html"><i class="fa-solid fa-house"></i> Dashboard</a>
+            <a href="user.html" class="active"><i class="fa-solid fa-users"></i> Users</a>
+            <a href="#"><i class="fa-solid fa-warehouse"></i> Products</a>
+            <a href="#"><i class="fa-solid fa-chart-line"></i> Reports</a>
+            <a href="#"><i class="fa-solid fa-users"></i> Employees</a>
+            <a href="#"><i class="fa-solid fa-box"></i> Customers</a>
+      </nav>
+
+      <div class="bottom-menu">
+            <a href="#"><i class="fa-solid fa-gear"></i> Settings</a>
+            <a href="#"><i class="fa-solid fa-id-badge"></i> Profile</a>
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i> Search</a>
+            <a href="#"><i class="fa-solid fa-circle-question"></i> Help</a>
+      </div>
+    </aside>
+
+    <!-- Main -->
+        <main>
+            <section class="user-list">
+                <h2>Listado de Usuarios</h2>
+                <a href="new-user.html"><button id="btn-registrar" class="btn-registrar">Registrar nuevo usuario</button></a>
+                <table>
+                    <thead>
+
+                        <tr>
+                            <th>Nombre completo</th>
+                            <th>Correo</th>
+                            <th>Teléfono</th>
+                            <th>Región</th>
+                            <th>Comuna</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                    </tbody>
+
+                </table>
+
+    <!-- Paginación -->
+                <div class="pagination">
+                    <button>&laquo;</button>
+                    <button>&lt;</button>
+                    <button class="active">1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button>&gt;</button>
+                    <button>&raquo;</button>
+                </div>
+        
+            
+        </main>
+    </div>
+    <script src="assets/javaScripts/user.js"></script>
+
+</body>

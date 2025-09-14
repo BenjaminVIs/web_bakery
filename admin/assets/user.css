@@ -1,0 +1,62 @@
+
+/* Users page content*/
+
+.user-list {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+}
+
+.user-list h2 {
+  margin-bottom: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #f4f4f4;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background: #f9f9f9;
+}
+
+.pagination {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.pagination button {
+  border: 1px solid #ccc;
+  background: #fff;
+  padding: 5px 10px;
+  margin: 0 3px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-registrar {
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-registrar:hover {
+    background-color: #45a049;
+}
+
