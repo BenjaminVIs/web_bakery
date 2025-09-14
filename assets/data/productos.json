@@ -1,0 +1,115 @@
+
+  [
+    {
+      "id": 1,
+      "nombre": "Torta Mil Hojas",
+      "precio": 15990,
+      "descripcion": "Deliciosa torta de mil hojas rellena con manjar casero y cubierta con azúcar flor.",
+      "imagen": "assets/img/p1.png"
+    },
+    {
+      "id": 2,
+      "nombre": "Torta Dos Mil Hojas",
+      "precio": 18990,
+      "descripcion": "Una versión más grande de la clásica Mil Hojas, perfecta para eventos especiales.",
+      "imagen": "assets/img/p2.png"
+    },
+    {
+      "id": 3,
+      "nombre": "Torta de Panqueques",
+      "precio": 14990,
+      "descripcion": "Capas de panqueques rellenas de manjar, mermelada y crema chantilly.",
+      "imagen": "assets/img/p3.png"
+    },
+    {
+      "id": 4,
+      "nombre": "Torta Chocolate Suprema",
+      "precio": 16990,
+      "descripcion": "Torta de chocolate húmeda con cobertura de ganache y relleno de trufa.",
+      "imagen": "assets/img/p4.png"
+    },
+    {
+      "id": 5,
+      "nombre": "Torta Selva Negra",
+      "precio": 17990,
+      "descripcion": "Bizcocho de chocolate con cerezas y crema batida, un clásico europeo.",
+      "imagen": "assets/img/p5.png"
+    },
+    {
+      "id": 6,
+      "nombre": "Torta Merengue Lucuma",
+      "precio": 19990,
+      "descripcion": "Merengue crujiente con capas de crema de lúcuma, un postre tradicional chileno.",
+      "imagen": "assets/img/p6.png"
+    },
+    {
+      "id": 7,
+      "nombre": "Torta Atardecer Purpura",
+      "precio": 16490,
+      "descripcion": "Torta de frutos rojos con crema de mora, ideal para ocasiones románticas.",
+      "imagen": "assets/img/p7.png"
+    },
+    {
+      "id": 8,
+      "nombre": "Torta Sueño de Verano",
+      "precio": 16990,
+      "descripcion": "Bizcocho suave relleno de mousse de maracuyá y piña, refrescante y liviano.",
+      "imagen": "assets/img/p8.png"
+    },
+    {
+      "id": 9,
+      "nombre": "Galletas de Mantequilla",
+      "precio": 5990,
+      "descripcion": "Galletas caseras de mantequilla, perfectas para la hora del té.",
+      "imagen": "assets/img/p9.png"
+    },
+    {
+      "id": 10,
+      "nombre": "Pastel de Bodas",
+      "precio": 49990,
+      "descripcion": "Pastel de varios pisos, decorado de forma elegante para ceremonias y eventos.",
+      "imagen": "assets/img/p10.png"
+    },
+    {
+      "id": 11,
+      "nombre": "Torta de Manjar Nuez",
+      "precio": 18490,
+      "descripcion": "Torta de bizcocho rellena con manjar y nueces picadas, un clásico chileno.",
+      "imagen": "assets/img/p11.png"
+    },
+    {
+      "id": 12,
+      "nombre": "Torta Cuadrada de Chocolate y Avenas",
+      "precio": 15490,
+      "descripcion": "Torta cuadrada con masa de avena y cobertura de chocolate semi-amargo.",
+      "imagen": "assets/img/p12.png"
+    },
+    {
+      "id": 13,
+      "nombre": "Mousse de Chocolate",
+      "precio": 12990,
+      "descripcion": "Mousse suave de chocolate belga con un toque de crema batida.",
+      "imagen": "assets/img/p13.png"
+    },
+    {
+      "id": 14,
+      "nombre": "Galletas Veganas de Avena",
+      "precio": 6490,
+      "descripcion": "Galletas sin productos de origen animal, dulces y saludables.",
+      "imagen": "assets/img/p14.png"
+    },
+    {
+      "id": 15,
+      "nombre": "Pan sin gluten",
+      "precio": 4990,
+      "descripcion": "Pan artesanal libre de gluten, ideal para personas celíacas.",
+      "imagen": "assets/img/p15.png"
+    },
+    {
+      "id": 16,
+      "nombre": "Empanada de Manzana",
+      "precio": 3990,
+      "descripcion": "Empanadas dulces rellenas de manzana caramelizada y canela.",
+      "imagen": "assets/img/p16.png"
+    }
+  ]

@@ -1,0 +1,53 @@
+<!-- DETALLE.HTML -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Detalle de Producto</title>
+  <link rel="stylesheet" href="assets/detalle-producto.css">
+</head>
+<body>
+  <header id="main-bar">
+        <h1 id="title">Pasteleria Mil Sabores</h1>
+        
+        <div id="navigation-bar">
+            <nav>
+            <a class="button" href="index.html">Home</a> | 
+            <a class="button" href="productos.html">Productos</a> | 
+            <a class="button" href="nosotros.html">Nosotros</a> | 
+            <a class="button" href="blog.html">Blog</a> | 
+            <a class="button" href="contacto.html">Contacto</a>          
+            </nav>
+        </div>
+
+        <div>
+            <button class="button" id="cart-button" style="float: right;">
+                🛒 Carrito
+            </button>
+        </div>
+    </header>
+
+    <main class="producto">
+        <!-- Galería de imágenes -->
+        <div class="imagenes">
+          <img id="imagenPrincipal" src="img/default.jpg" alt="Producto">
+        </div>
+
+        <!-- Información del producto -->
+        <div class="info">
+          <h1 id="nombreProducto">Nombre Producto</h1>
+          <span id="precio">$100</span>
+          <p id="descripcion">Descripción</p>
+
+          <label for="cantidad">Cantidad:</label>
+          <input type="number" id="cantidad" value="1" min="1">
+
+          <button id="addCart">Añadir al carrito</button>
+        </div>
+    </main>
+
+    <script src="assets/javascript/detalle-producto.js"></script>
+
+    
+</body>
+</html>

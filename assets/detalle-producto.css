@@ -1,0 +1,140 @@
+/* ----------------- Global ----------------- */
+body {
+    font-family: Lato, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF5E1;
+}
+
+/* ----------------- Header ----------------- */
+
+
+header#main-bar {
+    display: grid;
+    grid-template-columns: auto 1fr auto; /* título | nav | botón */
+    align-items: center;                  /* centra verticalmente */
+    justify-items: center;                /* centra horizontalmente cada elemento */
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+header#main-bar h1#title {
+    margin: 0;
+    font: Pacifico, cursive;
+    font-size: 20px;
+    color: #5D4037;
+}
+
+header#main-bar nav {
+    justify-self: center; /* centra la nav horizontalmente */
+}
+
+header#main-bar nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header#main-bar .button {
+    justify-self: end;    /* coloca el botón a la derecha */
+}
+
+/* ----------------- Botones ----------------- */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFC0CB;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.button:hover {
+    transform: scale(1.05);
+    background-color: #8B4513;
+}
+
+.breadcrumb {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: blue;
+}
+
+.producto {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+/* Galería de imágenes */
+.imagenes {
+  flex: 1;
+}
+
+.imagenes img {
+  width: 100%;
+  border: 1px solid #ccc;
+  display: block;
+}
+
+.miniaturas {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.miniaturas img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.miniaturas img.active {
+  border-color: blue;
+}
+
+/* Info producto */
+.info {
+  flex: 1;
+}
+
+#precio {
+  display: block;
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+#cantidad {
+  width: 60px;
+  margin-left: 5px;
+}
+
+
+/* Productos relacionados */
+.relacionados h2 {
+  margin-bottom: 15px;
+}
+
+.relacionados-grid {
+  display: flex;
+  gap: 15px;
+}
+
+.relacionados-grid img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
