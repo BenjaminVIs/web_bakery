@@ -77,23 +77,34 @@ header#main-bar .button {
 
 /* ----------------- Botones ----------------- */
 .button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #FFC0CB;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: transform 0.3s, background-color 0.3s;
-    text-decoration: none; /* para enlaces */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 28px;
+  background: linear-gradient(135deg, #ff8fa3, #ff5e78);
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  text-decoration: none; /* útil si es <a> */
+  box-shadow: 0 6px 14px rgba(255, 94, 120, 0.25);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
 }
 
+/* Hover elegante */
 .button:hover {
-    transform: scale(1.05);
-    background-color: #8B4513;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(255, 94, 120, 0.35);
+  background: linear-gradient(135deg, #ff7a95, #ff3f64);
 }
 
+/* Efecto al hacer clic */
+.button:active {
+  transform: scale(0.96);
+  box-shadow: 0 4px 10px rgba(255, 94, 120, 0.2);
+}
 /* ----------------- Responsividad ----------------- */
 @media (max-width: 768px) {
     .desc-imagen {

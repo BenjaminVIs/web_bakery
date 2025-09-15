@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/login.css">
-
   <title>Registro de Usuario</title>
 </head>
  
@@ -14,13 +13,13 @@
     <h1 id="title">Pasteleria Mil Sabores</h1>
         
     <div id="navigation-bar">
-          <nav>
-            <a class="button" href="index.html">Home</a> | 
-            <a class="button" href="productos.html">Productos</a> | 
-            <a class="button" href="nosotros.html">Nosotros</a> | 
-            <a class="button" href="blog.html">Blog</a> | 
-            <a class="button" href="contacto.html">Contacto</a>          
-          </nav>
+      <nav>
+        <a class="button" href="index.html">Home</a> | 
+        <a class="button" href="productos.html">Productos</a> | 
+        <a class="button" href="nosotros.html">Nosotros</a> | 
+        <a class="button" href="blog.html">Blog</a> | 
+        <a class="button" href="contacto.html">Contacto</a>          
+      </nav>
     </div>
 
     <div>
@@ -30,11 +29,11 @@
     </div>
   </header>
 
-  <br>
-  <br>
-   <div class="login-header" align="center">Registro de Usuario</div>
-  <form action="#" method="post">
-    
+  <br><br>
+  <div class="login-header" align="center">Registro de Usuario</div>
+  
+  <!-- 👇 Agregado id="registroForm" -->
+  <form id="registroForm">
     <label for="nombre">Nombre completo</label>
     <input type="text" id="nombre" name="nombre" required>
 
@@ -69,8 +68,10 @@
       <option value="concepcion">Concepción</option>
     </select>
 
-    <button type="submit">Registrar</button>
+    <button class="button" type="submit">Registrar</button>
   </form>
 
 </body>
+
+<script src="assets/javaScript/auth.js"></script>
 </html>
